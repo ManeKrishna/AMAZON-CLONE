@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+}
+.logo {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.navbar .logo h1{
+   margin: 0;
+   font-size: 25px;
+}
+
+.myownlogo{
+    width: 55px;
+    height: auto;
+}
+
+.navbar .search-bar {
+    display: flex;
+}
+
+.navbar .search-bar input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+}
+
+.navbar .search-bar button {
+    padding: 8px 16px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.navbar .cart a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.hero {
+
+    background-color: #eaeaea;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+}
+
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #b12704;
+}
+
+.product-item button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
